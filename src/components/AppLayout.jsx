@@ -31,7 +31,7 @@ function AppLayout() {
   const articlesLength = [currentArticles.length, searchedArticles.length];
 
   return (
-    <div className="min-h-screen bg-eggshell py-15 px-10">
+    <div className="min-h-screen bg-eggshell py-15 px-10 max-sm:px-4">
       <SearchArea
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}

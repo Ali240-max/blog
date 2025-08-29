@@ -8,7 +8,7 @@ function SearchArea({
   setSearchTerm,
 }) {
   return (
-    <div className="bg-stone-100 rounded-2xl px-5 py-8 shadow-lg ">
+    <div className="bg-stone-100 rounded-2xl px-5 py-8 shadow-lg  ">
       <h3 className="text-xl mb-3 font-semibold">Search Articles</h3>
       <div className="relative group focus-within:translate-y-[-5px] transition-transform duration-200">
         <Search className="absolute top-3 left-3 w-5 h-5 text-prussianblue transition-all duration-300 transform" />
